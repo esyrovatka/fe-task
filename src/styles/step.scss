@@ -1,0 +1,38 @@
+.step {
+  display: flex;
+  margin: 64px 0 0 64px;
+  gap: 25px;
+  align-items: center;
+  .stepInfo {
+    display: flex;
+    flex-direction: column;
+
+    .step_counter {
+      text-align: left;
+      font: normal normal bold 20px/32px Noto Sans;
+      letter-spacing: 1.6px;
+      color: #4eb3e3;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    h6 {
+      text-align: left;
+      font-family: Caveat Brush;
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #1f343e;
+      text-transform: uppercase;
+      opacity: 1;
+      padding: 8px 0;
+    }
+
+    .step_text {
+      text-align: left;
+      font: normal normal normal 20px/32px;
+      letter-spacing: 0px;
+      color: #1f343e;
+      opacity: 1;
+    }
+  }
+}

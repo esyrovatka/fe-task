@@ -1,0 +1,30 @@
+.under_footer_container {
+  background: #45565e 0% 0% no-repeat padding-box;
+  border: 1px solid #1f343e;
+  opacity: 1;
+
+  .under_footer {
+    display: flex;
+    gap: 50px;
+    margin: 32px 0;
+    align-items: center;
+
+    span {
+      padding-left: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      .shop {
+        display: flex;
+        background: #45565e 0% 0% no-repeat padding-box;
+        border: 1px solid #1f343e;
+        border-radius: 16px;
+        color: #f8f4f9;
+        padding: 16px 24px;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+}

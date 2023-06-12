@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Caveat Brush";
+  src: url("../assets/fonts/CaveatBrush-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  background: #f8f4f9 0% 0% no-repeat padding-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .links {
+    a {
+      text-decoration: none;
+      color: #000;
+      padding: 0 0 0 20px;
+
+      &:hover {
+        color: #4eb3e3;
+      }
+    }
+  }
+}
+main {
+  background: #f8cc5d 0% 0% no-repeat padding-box;
+  border: 1px solid #1f343e;
+
+  .main {
+    display: flex;
+    .email {
+      display: flex;
+      flex-direction: column;
+      max-width: 50%;
+      padding: 64px;
+      margin: 64px 64px 64px 0;
+      background-color: #fff;
+      border-radius: 16px;
+      min-height: 800px;
+
+      h3 {
+        text-align: left;
+        font-size: 48px;
+        font-family: Caveat Brush;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: #1f343e;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+
+      .describe {
+        padding: 32px 0;
+        text-align: left;
+        font: normal normal normal 20px/32px Noto Sans;
+        letter-spacing: 0px;
+        color: #1f343e;
+      }
+
+      .success,
+      .error {
+        font: normal normal normal 12px/24px Noto Sans;
+        letter-spacing: 0px;
+        color: #ed6f82;
+        opacity: 1;
+      }
+
+      .success {
+        color: green;
+      }
+
+      .input-icons {
+        width: 100%;
+        margin-bottom: 10px;
+
+        img {
+          position: relative;
+          top: 50%;
+          left: 10px;
+        }
+        .input-field {
+          width: 100%;
+          padding: 20px 10px 20px 35px;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          border: 1px solid #1f343e;
+          border-radius: 8px;
+        }
+      }
+
+      button {
+        background: #4eb3e3 0% 0% no-repeat padding-box;
+        border: 1px solid #1f343e;
+        opacity: 1;
+        text-align: center;
+        font: normal normal bold 20px/32px Noto Sans;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        border-radius: 8px;
+        padding: 12px;
+        margin-bottom: 170px;
+      }
+
+      .info {
+        text-align: left;
+        font: normal normal normal 16px/32px Noto Sans;
+        letter-spacing: 0px;
+        color: #6d7a80;
+      }
+    }
+
+    .instruction {
+      // display: flex;
+      // flex-direction: column;
+      width: 100%;
+    }
+  }
+}
